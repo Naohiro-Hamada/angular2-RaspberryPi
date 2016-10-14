@@ -1,6 +1,19 @@
-# Osc
+# Angular2-RaspberryPi
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.17.
+
+## 環境
+
+- Node v4.5.0
+
+## 実行
+
+```
+$ npm install
+$ ng build
+$ cp src/server/* dist
+$ node dist/app.js
+```
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
